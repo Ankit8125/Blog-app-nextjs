@@ -4,7 +4,7 @@ import BlogOverview from "@/components/blog-overview"
 
 async function fetchListOfBlogs(){
     try {
-        const apiResponse = await fetch('https://blog-app-nextjs-bdxpfmb43-ankit8125s-projects.vercel.app/api/get-blogs', { // here we need to pass exact url, else it will not work
+        const apiResponse = await fetch('http://localhost:3000/api/get-blogs', { // here we need to pass exact url, else it will not work
             method: 'GET',
             cache: 'no-store'   
         }) 
