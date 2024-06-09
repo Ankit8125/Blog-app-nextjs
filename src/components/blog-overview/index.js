@@ -29,7 +29,7 @@ function BlogOverview({blogList}) {
     const [blogFormData, setBlogFormData] = useState(initialBlogFormData)
     const [currentEditedBlogID, setCurrentEditedBlogID] = useState(null)
 
-    // now when updating our data on frontend, I am not getting the upadted UI, so I am using this method
+    // now when updating our data on frontend, I am not getting the updated UI, so I am using this method
     const router = useRouter()
 
     useEffect(()=>{
